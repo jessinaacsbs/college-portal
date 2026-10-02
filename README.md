@@ -31,6 +31,7 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) web application designed
 
 
 ## 📁 Repository Structure
+
 ```text
 college-portal/
 └── college-portal/
@@ -40,7 +41,8 @@ college-portal/
     └── frontend/         # React client application
         ├── src/
         └── package.json
-        
+```
+   
 
 ## 💻 Local Setup & Development
 1. Prerequisites
