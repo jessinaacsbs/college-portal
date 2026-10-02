@@ -8,7 +8,7 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) web application designed
 - **Backend API Service:** [https://college-portal-backend-6myl.onrender.com](https://college-portal-backend-6myl.onrender.com)
 
 
-✨ Features
+## ✨ Features
 1. Authentication System: Secure JWT-based login for students and administrators.
 
 2. Student Dashboard: View student profiles, registration details, and assigned sections.
@@ -18,7 +18,7 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) web application designed
 4. Responsive UI: Modern React interface styled for seamless desktop and mobile navigation.
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 1. Frontend: React.js, Vite, Axios, React Router
 
 2. Backend: Node.js, Express.js
@@ -29,7 +29,9 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) web application designed
 
 5. Version Control: Git & GitHub
 
-📁 Repository Structure
+
+## 📁 Repository Structure
+```text
 college-portal/
 └── college-portal/
     ├── backend/          # Express server & API routes
@@ -38,9 +40,9 @@ college-portal/
     └── frontend/         # React client application
         ├── src/
         └── package.json
+        
 
-
-💻 Local Setup & Development
+## 💻 Local Setup & Development
 1. Prerequisites
 2. Node.js installed locally
 
@@ -55,11 +57,12 @@ MongoDB Atlas cluster or local MongoDB instance
    npm install
 
 Create a .env file in the backend directory:
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
+    MONGO_URI=your_mongodb_connection_string
+    PORT=5000
 
 Start the backend server:
-npm start
+   npm start
+
 
 3. Frontend Setup
    cd ../frontend
