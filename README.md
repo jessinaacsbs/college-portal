@@ -116,6 +116,7 @@ The frontend will run on http://localhost:5173 and communicate with the backend 
 The user enters their credentials (such as Register Number `12345`). Upon submit, React calls `/api/login` on Express, stores the returning JWT token in local storage, and routes the user to the Dashboard.
 
 **User Move:** Enters login details into the authentication form.  
+
 **System Move:** Validates credentials via Node/Express API against the `students` collection in MongoDB Atlas and returns an authorization token.
 <img width="952" height="418" alt="Screenshot 2026-10-02 120300" src="https://github.com/user-attachments/assets/90914913-c8de-4b57-8042-2e81b6816f50" />
 
@@ -123,10 +124,13 @@ The user enters their credentials (such as Register Number `12345`). Upon submit
 
 ### 🔄 MODEL 2: Application Interaction States
 
+### 🔄 MODEL 2: Application Interaction States
+
 **Phase 2: Profile Overview & Navigation (`/dashboard`)**
 The user accesses their personalized student portal showing register details and assigned section info retrieved directly from MongoDB Atlas.
 
 **User Move:** Navigates student profile views and section assignments.
+
 **System Move:** Decodes the session token to retrieve specific student metadata and renders active portal modules.
 <img width="957" height="410" alt="Screenshot 2026-10-02 120325" src="https://github.com/user-attachments/assets/58f03cf3-b217-4ee8-80bb-22a02f90920b" />
 
@@ -138,6 +142,7 @@ The user accesses their personalized student portal showing register details and
 Clicking the Achievements tab triggers an authorized `GET` request to fetch and display the student's logged extracurricular achievements and certifications.
 
 **User Move:** Clicks the Achievements option in the navigation bar.
+
 **System Move:** Sends a token-bearing Axios request to `/api/achievements`, retrieves matching records, and updates the DOM dynamically without a page refresh.
 <img width="955" height="409" alt="Screenshot 2026-10-02 120345" src="https://github.com/user-attachments/assets/c48f838f-6c53-4944-b309-be4026d1e20b" />
 
