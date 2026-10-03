@@ -122,7 +122,6 @@ The user enters their credentials (such as Register Number `12345`). Upon submit
 
 
 
-### 🔄 MODEL 2: Application Interaction States
 
 ### 🔄 MODEL 2: Application Interaction States
 
